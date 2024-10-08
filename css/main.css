@@ -18,6 +18,11 @@ body {
     height: 700px;
 }
 
+header h1 {
+    float: left;
+    width: 350px;
+}
+
 header nav {
     width: 800px;
     float: right;
@@ -33,7 +38,7 @@ nav ul li a {
     text-transform: uppercase;
     font-size: 16px;
     color: #727172;
-    padding-left: 25px;
+    padding-left: 50px;
 }
 
 /****** About Styles ******/
@@ -59,6 +64,8 @@ nav ul li a {
 #services {
     background: #f5f5f5;
     text-align: center;
+    border-top: solid 5px gray;
+    border-bottom: solid 5px gray;
 }
 
 #services .content-wrapper {
@@ -168,46 +175,37 @@ nav ul li a {
     padding-right: 40px;
 }
 
-/****** Projects Page Styles ******/
-/****** Projects Page Header Styles ******/
-.projects-hero {
-    background: #F9EFEF;
-}
-
-/****** Projects Page Projects Styles ******/
-#projects {
+/****** Listings Page Styles ******/
+/****** Listings Page Header Styles ******/
+.listings-hero {
     background: #f5f5f5;
+    border-bottom: solid 5px gray;
+}
+
+/****** Listings Page Projects Styles ******/
+#listings {
+    background: url("../img/tx-map-light.png"), #f5f5f5;
     text-align: center;
+    border-bottom: solid 5px gray;
 }
 
-#projects .content-wrapper {
-    padding: 115px 0;
+#listings .content-wrapper {
+    padding: 70px 0;
 }
 
-#projects .projects-list {
+#listings .listings-list {
     float: left;
     width: 300px;
     padding: 0 50px;
 }
 
-#projects h2 {
+#listings h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     padding-bottom: 40px;
 }
 
-#projects img {
-    width: 300px;
-    padding-bottom: 30px;
-}
-
-#projects h3 {
+#listings h3 {
     font-size: 24px;
     line-height: 36px;
-}
-
-#projects p {
-    font-size: 20px;
-    line-height: 40px;
-    text-align: left;
 }
